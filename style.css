@@ -79,8 +79,9 @@ button{
   #attribution{
     text-align: center;
     position: absolute;
-    bottom: 20px;
+    bottom: 0;
     font-size: .9rem;
+    margin-bottom: 40px;
   }
 }
 
@@ -96,11 +97,5 @@ button{
   }
   #main-quote{
     font-size: 1.3rem;
-  }
-  #attribution{
-    text-align: center;
-    position: absolute;
-    bottom: 20px;
-    font-size: .9rem;
   }
 }
