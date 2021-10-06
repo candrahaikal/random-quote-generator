@@ -68,7 +68,8 @@ button{
     background: linear-gradient(to bottom, rgba(0,0,0,.2), rgba(0,0,0,.2)), url(images/bg-mobile.jpg);
     background-size: cover;
     background-position: left center;
-  justify-content: center;
+    justify-content: start;
+    padding-top: 100px;
   }
   #card{
     width: 80%;
