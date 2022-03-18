@@ -1,3 +1,5 @@
+// import html2canvas from '/node_modules/html2canvas';
+
 const btn = document.querySelector('#btn');
 const quoteText = document.querySelector('#main-quote');
 
@@ -133,4 +135,18 @@ btn.addEventListener('click', function(){
   } else{
     quoteText.innerHTML = quotesList[randomQuoteGenerator];
   }
+})
+
+
+const ssBtn = document.getElementById('ssBtn');
+
+ssBtn.addEventListener('click', function(){
+	html2canvas(document.getElementById('main')).then(function(canvas) {
+    var link = document.createElement('a');
+		link.href = 'images.jpg';
+		link.download = 'Download.jpg';
+		document.body.appendChild(link);
+		link.click();
+		document.body.removeChild(link);
+	});
 })
