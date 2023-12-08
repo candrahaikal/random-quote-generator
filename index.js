@@ -138,15 +138,15 @@ btn.addEventListener('click', function(){
 })
 
 
-const ssBtn = document.getElementById('ssBtn');
+// const ssBtn = document.getElementById('ssBtn');
 
-ssBtn.addEventListener('click', function(){
-	html2canvas(document.getElementById('main')).then(function(canvas) {
-    var link = document.createElement('a');
-		link.href = 'images.jpg';
-		link.download = 'Download.jpg';
-		document.body.appendChild(link);
-		link.click();
-		document.body.removeChild(link);
-	});
-})
+// ssBtn.addEventListener('click', function(){
+// 	html2canvas(document.getElementById('main')).then(function(canvas) {
+//     var link = document.createElement('a');
+// 		link.href = 'images.jpg';
+// 		link.download = 'Download.jpg';
+// 		document.body.appendChild(link);
+// 		link.click();
+// 		document.body.removeChild(link);
+// 	});
+// })
